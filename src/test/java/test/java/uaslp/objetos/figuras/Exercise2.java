@@ -1,7 +1,8 @@
-package uaslp.objetos.figuras;
+package test.java.uaslp.objetos.figuras;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import uaslp.objetos.figuras.*;
 
 import java.util.ArrayList;
 import java.util.List;
