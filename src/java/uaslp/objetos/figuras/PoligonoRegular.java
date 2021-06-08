@@ -1,15 +1,19 @@
 package uaslp.objetos.figuras;
 
 public class PoligonoRegular extends Figura {
-    private int numeroDeLados;
-    private double lado;
+    private int numeroDeLados = -1;
+    private double lado = -1;
 
 
     public PoligonoRegular(int numeroDeLados, double lado) {
+        if(numeroDeLados<5)
+            throw new NumeroInvalidoDeLados("Número de lados válido a partir de 5");
         this.numeroDeLados = numeroDeLados;
         this.lado = lado;
     }
     public PoligonoRegular(int numeroDeLados) {
+        if(numeroDeLados<5)
+            throw new NumeroInvalidoDeLados("Número de lados válido a partir de 5");
         this.numeroDeLados = numeroDeLados;
     }
 
