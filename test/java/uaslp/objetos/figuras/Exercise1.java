@@ -3,7 +3,7 @@ package uaslp.objetos.figuras;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class Exercise1 {
+public class Exercise1{
 
     // CREA LAS CLASES Y METODOS NECESARIOS PARA QUE EL TEST SE EJECUTE CORRECTAMENTE
 
