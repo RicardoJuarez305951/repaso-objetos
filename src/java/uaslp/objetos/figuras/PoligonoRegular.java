@@ -1,8 +1,6 @@
 package uaslp.objetos.figuras;
 
-import uaslp.objetos.Shape;
-
-public class PoligonoRegular extends Shape {
+public class PoligonoRegular extends Figura {
     private int numeroDeLados;
     private double lado;
 
@@ -30,7 +28,7 @@ public class PoligonoRegular extends Shape {
 
     @Override
     public String getName() {
-        return null;
+        return "Poligono Regular";
     }
 
     @Override

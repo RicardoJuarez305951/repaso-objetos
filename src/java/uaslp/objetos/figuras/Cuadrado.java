@@ -1,8 +1,6 @@
 package uaslp.objetos.figuras;
 
-import uaslp.objetos.Shape;
-
-public class Cuadrado extends Shape {
+public class Cuadrado extends Figura {
     private double lado;
 
     public Cuadrado(double lado){
@@ -28,7 +26,7 @@ public class Cuadrado extends Shape {
 
     @Override
     public String getName() {
-        return null;
+        return "Cuadrado";
     }
 
     @Override
